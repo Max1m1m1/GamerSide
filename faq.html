@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamerSide</title>
+    <script src="./script/faq.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/mainpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./css/faq.css">
+</head>
+
+  <body>
+    <section class="topbar">
+        
+      <a href="./mainpage.html"><img class="logo" src="./img/GAMERSIDE.png" alt="GAMERSIDE"></a>
+      
+      <ul>
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./contact.html">CONTACT </a></li>
+        <li><a href="./faq.html">FAQ </a></li>
+        <li><a href="./services.html">SERVICES</a></li>
+        <li class="nowrap"><a href="./trybeta.html">TRY  BETA </a> </li>
+    </ul>
+
+      <section class="social">
+          
+              <div > <a href="https://www.instagram.com/ctisbilkent/"><img src="./img/socials logo pack/instagram.png" alt="Instagram" width="45" height="45"></a> </div>
+              <div ><a href="https://twitter.com/CTISBilkent"><img src="./img/socials logo pack/twitter.png" alt="Twitter" width="45" height="45"></a> </div>
+              <div ><a href="https://www.facebook.com/CTISBilkent/"><img src="./img/socials logo pack/facebook.png" alt="Facebook" width="45" height="45"></a> </div>
+              <div ><a href="https://www.youtube.com/c/CTISBilkent"><img src="./img/socials logo pack/youtube.png" alt="Youtube" width="45" height="45"> </a></div>
+          
+
+      </section>
+  </section>
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="faq-wrapper">
+        <div class="header">
+          <h1>FAQs</h1>
+        </div>
+        <div class="faq-inner">
+          <div class="faq-item">
+            <h3>
+              When is support feedback?
+
+              <span class="faq-plus">&plus;</span>
+            </h3>
+            <div class="faq-body">
+              Our teams are working hard to provide you with a better user experience, we will get back to you within 3 working days at the latest.
+            </div>
+          </div>
+          <hr>
+          <div class="faq-item">
+            <h3>
+              Do you have an internship opportunity?
+
+              <span class="faq-plus">&plus;</span>
+            </h3>
+            <div class="faq-body">
+              Yes, we are committed to providing our interns with salaries, meals, transportation costs and many new information they can learn in our intern quotas taken in certain periods.
+            </div>
+          </div>
+          <hr>
+          <div class="faq-item">
+            <h3>
+              Can I visit your office ?
+              
+              <span class="faq-plus">&plus;</span>
+            </h3>
+            <div class="faq-body">
+              Yes, you can visit our office in Bilkent Cyberpark at any time from 9 am to 6 pm on weekdays.
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="footer">
+  <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2023 GamerSide. All rights reserved.</p>
+        <nav>
+          <ul>
+            <li><a href="./mainpage.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+</section>
+<script type="text/javascript">
+  $(".faq-plus").on('click',function(){
+    $(this).parent().parent().find('.faq-body').slideToggle();
+  });
+</script>
+    
+
+    
+  </body>
+
+</html>

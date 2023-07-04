@@ -1,0 +1,54 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css');
+
+body{background-color: #2773db;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 300; margin: 0; padding:0;}
+
+
+.topbar { display: flex; width: auto; height: 100px; border-bottom: 1px solid black;}
+.logo { top: 15px;right: 30px;}
+.logo:hover{cursor: pointer;}
+.topbar>ul { display: flex; text-indent: 5px; font-size: 20px; margin-top: 30px; }
+.topbar>ul>li>a { text-align: center; margin-left: 80px;font-weight: bold; color: white;}
+.topbar>ul>li>a:hover { color: #ffcb73; cursor: pointer; }
+.nowrap {white-space: nowrap;}
+.social {display: flex; margin-top: 20px; align-items: center; margin-left: 150px;}
+.social>div { margin-right: 30px; }
+.social>div>a>img { width: 30px; height: 30px; margin-bottom: 30px; }
+.social>div>a>img:hover {cursor: pointer;}
+
+
+.middle { width: 60%; height: 410px; margin-left: 250px; overflow: hidden; border-radius: 10px; margin-top: 40px; display: flex;flex-direction: row;}
+#left {flex: 3; height: 410px;}
+#left img{width: 645px; height: 410px; }
+#left1{background-image: url(/img/spiderman.webp);}
+#right {height: 410px; flex: 2; padding-top: 0; display: flex; flex-direction: column; align-items: stretch;}
+#game1,#game2,#game3,#game4,#game5{width: auto;height: 82px;box-sizing: border-box; border-bottom: 0.5px solid black; background-color: #424242;}
+#game1:hover ,#game2:hover,#game3:hover,#game4:hover ,#game5:hover{cursor: pointer; background-color: #757575;}
+#game1 a,#game2 a,#game3 a,#game4 a,#game5 a {text-align: center;margin-left: 7px; font-size: 15px; color: white; justify-content: center; }
+#game5 {border-bottom: none;}
+.swipelink{padding: 12px;display: flex;text-align: center; align-items: center; justify-content: center;}
+
+
+
+.box-wrapper{height: 400px; flex-direction:row; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; background-color: #000000;}
+#content{display: flex; margin-left: 200px; color: #ffffff;}
+#header{ padding-right: 30px; padding-left: 30px; background-color: black; display: flex; border-radius:100px; height: 60px; width: 230px; margin-top: 30px; justify-content: center; align-items: center;}
+#header1{ text-align: center; width: 50%;left: 0;}
+#header2{ width:50%; }
+#header h5 { margin:5px; }
+#filterbar{display: grid; width: 1000px; }
+#filterbar>ul{display: flex; padding: 50px; justify-content: space-around; justify-content: center; align-items: center; margin-top: 20px; margin-bottom: 0px;}
+#filterbar>ul>li{ padding-top: 10px; margin-left: 80px; border-radius:30px ; width: 600%; height: 130%; background-color: #000000; text-align: center; flex: 1;}
+#filterbar>ul>:hover{cursor: pointer; background-color:#ffcb73;}
+#topic{border-top: 1px solid black; height: 600px; width: 1000px; margin-left: 300px;margin-top: 10px; }
+#mark{ display: flex; margin-top: 20px;}
+#chev{ margin-left: 260px; margin-top: 30px; font-size: 20px;}
+.active>a{background-color: #ffcb73 ;}
+
+
+.footer { background-color: #000000; padding: 20px 0;color: #ffffff; margin-bottom: 0;}
+.container { margin: 0 auto; padding: 0 20px; }
+.footer-content { display: flex; justify-content: space-between; align-items: center;}
+.footer-content>nav { background-color: #ffcb73;}
+ul { list-style-type: none; margin: 0; padding: 0;}
+ul li a:hover{ text-decoration: underline; }

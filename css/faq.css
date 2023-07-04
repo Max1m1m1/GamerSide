@@ -1,0 +1,44 @@
+body {
+  background-color: #2772db;font-family: Ubuntu; font-weight: 300; margin: 0; padding:0;
+}
+
+  .header{
+    border-radius: 20px 20px 0px 0px;
+    padding: 10px 0px;
+    background: rgb(56, 23, 175);
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .faq-item{
+    
+    padding-top: 30px;
+    color: #444;
+    font-size: 20px;
+    margin: auto;
+    line-height: 50px;
+  }
+  .faq-body{
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #4e4e4e;
+  }
+  .faq-wrapper{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .faq-inner{
+    padding: 30px;
+    background: aliceblue;
+  }
+  .faq-plus{
+    float: right;
+    font-size: 1.4em;
+    line-height: 1em;
+    cursor: pointer;
+  }
+  hr{
+    background-color: #9b9b9b;
+  }

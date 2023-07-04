@@ -1,0 +1,4 @@
+.mid{ height: 1000px; width: 75%; align-items: center; border: 1px solid black; background-color: rgb(208, 206, 206);margin: auto;}
+#expl{display: flex; background-color: white;}
+#expl>img{width: 50%;}
+#expl>p{width: 50%; font-size: 30px; align-items: center; padding: 12px; }
